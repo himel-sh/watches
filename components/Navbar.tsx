@@ -22,7 +22,7 @@ const Navbar = () => {
           href={"/"}
           className="hidden md:inline-block text-lg font-semibold"
         >
-          Zwatches
+          Watches
         </Link>
         <div className="relative max-w-[300px] md:w-[400px]">
           <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
