@@ -77,7 +77,7 @@ const UpdateForm = ({ productId }: { productId: string }) => {
         />
       )}
       <div className="flex flex-col w-full">
-        <label>Product Image: </label>
+        <label className="text-gray-900 font-medium">Product Image: </label>
         <input
           type="file"
           accept="image/*"
@@ -88,7 +88,7 @@ const UpdateForm = ({ productId }: { productId: string }) => {
       </div>
 
       <div className="flex flex-col w-full">
-        <label>Name: </label>
+        <label className="text-gray-900 font-medium">Name: </label>
         <input
           type="text"
           name="name"
@@ -99,7 +99,7 @@ const UpdateForm = ({ productId }: { productId: string }) => {
       </div>
 
       <div className="flex flex-col w-full">
-        <label>Price: </label>
+        <label className="text-gray-900 font-medium">Price: </label>
         <input
           type="number"
           name="price"
@@ -110,7 +110,7 @@ const UpdateForm = ({ productId }: { productId: string }) => {
       </div>
 
       <div className="flex flex-col w-full">
-        <label>Seller's Link: </label>
+        <label className="text-gray-900 font-medium">Seller's Link: </label>
         <input
           type="text"
           name="link"
@@ -121,7 +121,7 @@ const UpdateForm = ({ productId }: { productId: string }) => {
       </div>
 
       <div className="flex flex-col w-full">
-        <label>Description: </label>
+        <label className="text-gray-900 font-medium">Description: </label>
         <textarea
           name="description"
           defaultValue={product?.description}
